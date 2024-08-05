@@ -1,0 +1,66 @@
+{
+  "name": "statemachineg6",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build-example": "vue-cli-service build",
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service test:unit"
+  },
+  "files": [
+    "dist"
+  ],
+  "authors": {
+    "name": "HangerZou",
+    "email": "hangerzou@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HangerZou/stateMachineG6/issues"
+  },
+  "homepage": "https://github.com/HangerZou/stateMachineG6#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "vue",
+    "workflow",
+    "diagram",
+    "g6"
+  ],
+  "author": "hangerzou",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HangerZou/stateMachineG6.git"
+  },
+  "dependencies": {
+    "@antv/dom-util": "2.0.2",
+    "@antv/g-canvas": "^0.4.12",
+    "@antv/g6": "3.5.2",
+    "@antv/matrix-util": "2.0.7",
+    "@antv/util": "~2.0.9",
+    "bin-code-editor": "^0.9.0",
+    "dagre": "^0.8.4",
+    "element-ui": "2.12.0",
+    "ml-matrix": "^6.10.2",
+    "vue": "^2.6.10",
+    "vue-json-editor": "^1.4.3",
+    "vue-router": "^3.6.5"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.24.8",
+    "@babel/preset-env": "^7.24.8",
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "babel-loader": "^9.1.3",
+    "core-js": "^3.3.2",
+    "node-sass": "^4.12.0",
+    "numericjs": "^1.2.6",
+    "raw-loader": "^3.1.0",
+    "sass-loader": "^8.0.0",
+    "vue-loader": "^17.4.2",
+    "vue-template-compiler": "^2.7.16"
+  }
+}
